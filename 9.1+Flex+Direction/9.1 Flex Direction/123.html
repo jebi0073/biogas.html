@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gas Extraction Calculator</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: left;
+            background-color:khaki;
+            float: left;
+            
+
+
+         
+            
+            
+        }
+
+        input[type="number"] {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 20px;
+            margin-left:100px;
+            
+          
+           
+           
+          
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 20px;
+            margin-left: 30px;
+            float: right;
+           
+            
+            
+            
+        
+            
+        }
+        #gasAmount {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            margin-top: 20px;
+        }
+          
+        
+        h1{
+          color:darkblue;
+        }
+   
+        #jbd {
+    max-width: 25%; /* Set the maximum width of the image */
+    margin-top: 10px; /* Adjust the top margin of the image */
+    height: 25%;
+    width: 25%;
+    
+}
+       
+    
+
+     
+        
+        
+    </style>
+</head>
+<body>
+    <div class="ddd">
+    <h1>BioGas Extraction </h1>
+    <label for="quantity">Enter    Apple    Quantity:</label>
+    <input type="number" id="quantity" placeholder="Enter quantity...">
+    <button onclick="calculateGas()">Calculate Gas Extraction</button>
+    <div id="gasAmount"></div>
+
+    <label for="quantitys">Enter banana Quantity:</label>
+    <input type="number" id="quantitys" placeholder="Enter quantity...">
+    <button onclick="calculateGass()">Calculate Gas Extraction</button>
+    <div id="gasAmount1"></div>
+
+    <label for="quantityss">Enter Grape Quantity:</label>
+    <input type="number" id="quantityss" placeholder="Enter quantity...">
+    <button onclick="calculateGasss()">Calculate Gas Extraction</button>
+    <div id="gasAmount2"></div>
+
+    <label for="quantitysss">Enter Melon Quantity:</label>
+    <input type="number" id="quantitysss" placeholder="Enter quantity...">
+    <button onclick="calculateGassss()">Calculate Gas Extraction</button>
+    <div id="gasAmount3"></div>
+
+    <label for="quantityssss">Enter Mixed Fruit Wastes Quantity:</label>
+    <input type="number" id="quantityssss" placeholder="Enter quantity...">
+    <button onclick="calculateGasssss()">Calculate Gas Extraction</button>
+    <div id="gasAmount4"></div>
+
+    <label for="quantitysssss">Enter 0range Quantity:</label>
+    <input type="number" id="quantitysssss" placeholder="Enter quantity...">
+    <button onclick="calculateGassssss()">Calculate Gas Extraction</button>
+    <div id="gasAmount5"></div>
+
+    <label for="quantityssssss">Enter Banana Peels Quantity:</label>
+    <input type="number" id="quantityssssss" placeholder="Enter quantity...">
+    <button onclick="calculateGasssssss()">Calculate Gas Extraction</button>
+    <div id="gasAmount6"></div>
+
+    <label for="quantitysssssss">Enter Cassava residues Quantity:</label>
+    <input type="number" id="quantitysssssss" placeholder="Enter quantity...">
+    <button onclick="calculateGasssssss()">Calculate Gas Extraction</button>
+    <div id="gasAmount7"></div>
+
+    <label for="quantityssssssss">Enter food waste Quantity:</label>
+    <input type="number" id="quantityssssssss" placeholder="Enter quantity...">
+    <button onclick="calculateGasssssssss()">Calculate Gas Extraction</button>
+    <div id="gasAmount8"></div>
+
+    
+    <label for="quantitysssssssss">Enter Olive Husk Quantity:</label>
+    <input type="number" id="quantitysssssssss" placeholder="Enter quantity...">
+    <button onclick="calculateGassssssssss()">Calculate Gas Extraction</button>
+    <div id="gasAmount9"></div>
+
+    <label for="quantityssssssssss">Enter Potato peels Quantity:</label>
+    <input type="number" id="quantityssssssssss" placeholder="Enter quantity...">
+    <button onclick="calculateGasssssssssss()">Calculate Gas Extraction</button>
+    <div id="gasAmount10"></div>
+
+    <label for="quantitysssssssssss">Enter Rice Quantity:</label>
+    <input type="number" id="quantitysssssssssss" placeholder="Enter quantity...">
+    <button onclick="calculateGassssssssssss()">Calculate Gas Extraction</button>
+    <div id="gasAmount11"></div>
+
+    <label for="quantityssssssssssss">Enter Rice Residue Quantity:</label>
+    <input type="number" id="quantityssssssssssss" placeholder="Enter quantity...">
+    <button onclick="calculateGasssssssssssss()">Calculate Gas Extraction</button>
+    <div id="gasAmount12"></div>
+
+    <label for="quantitysssssssssssss">Enter Sugarcane bagasse Quantity:</label>
+    <input type="number" id="quantitysssssssssssss" placeholder="Enter quantity...">
+    <button onclick="calculateGassssssssssssss()">Calculate Gas Extraction</button>
+    <div id="gasAmount13"></div>
+    </div>
+    
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+    <script>
+      function calculateGas() {
+          var quantity = document.getElementById('quantity').value;
+          // Add your extraction calculation logic here
+          // For example:
+          var gasExtracted = quantity * 635; // Assuming 80% extraction efficiency
+          document.getElementById('gasAmount').innerText = "Gas Extracted: " + gasExtracted + " units";
+      }
+  
+      function calculateGass() {
+          var quantity = document.getElementById('quantitys').value;
+          // Add your extraction calculation logic here
+          // For example:
+          var gasExtracted = quantity * 403; // Assuming 80% extraction efficiency
+          document.getElementById('gasAmount1').innerText = "Gas Extracted: " + gasExtracted + " units";
+      }
+      function calculateGasss() {
+          var quantity = document.getElementById('quantityss').value;
+          // Add your extraction calculation logic here
+          // For example:
+          var gasExtracted = quantity * 384; // Assuming 80% extraction efficiency
+          document.getElementById('gasAmount2').innerText = "Gas Extracted: " + gasExtracted + " units";
+      }
+
+      function calculateGassss() {
+          var quantity = document.getElementById('quantitysss').value;
+          // Add your extraction calculation logic here
+          // For example:
+          var gasExtracted = quantity * 352; // Assuming 80% extraction efficiency
+          document.getElementById('gasAmount3').innerText = "Gas Extracted: " + gasExtracted + " units";
+      }
+      function calculateGasssss() {
+          var quantity = document.getElementById('quantityssss').value;
+          // Add your extraction calculation logic here
+          // For example:
+          var gasExtracted = quantity * 553; // Assuming 80% extraction efficiency
+          document.getElementById('gasAmount4').innerText = "Gas Extracted: " + gasExtracted + " units";
+      }
+
+      function calculateGassssss() {
+          var quantity = document.getElementById('quantitysssss').value;
+          // Add your extraction calculation logic here
+          // For example:
+          var gasExtracted = quantity * 	403; // Assuming 80% extraction efficiency
+          document.getElementById('gasAmount5').innerText = "Gas Extracted: " + gasExtracted + " units";
+      }
+
+      function calculateGasssssss() {
+          var quantity = document.getElementById('quantityssssss').value;
+          // Add your extraction calculation logic here
+          // For example:
+          var gasExtracted = quantity *210; // Assuming 80% extraction efficiency
+          document.getElementById('gasAmount6').innerText = "Gas Extracted: " + gasExtracted + " units";
+      }
+
+      function calculateGasssssss() {
+          var quantity = document.getElementById('quantitysssssss').value;
+          // Add your extraction calculation logic here
+          // For example:
+          var gasExtracted = quantity *118; // Assuming 80% extraction efficiency
+          document.getElementById('gasAmount7').innerText = "Gas Extracted: " + gasExtracted + " units";
+      }
+
+      function calculateGasssssssss() {
+          var quantity = document.getElementById('quantityssssssss').value;
+          // Add your extraction calculation logic here
+          // For example:
+          var gasExtracted = quantity * 218; // Assuming 80% extraction efficiency
+          document.getElementById('gasAmount8').innerText = "Gas Extracted: " + gasExtracted + " units";
+      }
+      function calculateGassssssssss() {
+          var quantity = document.getElementById('quantitysssssssss').value;
+          // Add your extraction calculation logic here
+          // For example:
+          var gasExtracted = quantity *87; // Assuming 80% extraction efficiency
+          document.getElementById('gasAmount9').innerText = "Gas Extracted: " + gasExtracted + " units";
+      }
+
+      function calculateGasssssssssss() {
+          var quantity = document.getElementById('quantityssssssssss').value;
+          // Add your extraction calculation logic here
+          // For example:
+          var gasExtracted = quantity * 103; // Assuming 80% extraction efficiency
+          document.getElementById('gasAmount10').innerText = "Gas Extracted: " + gasExtracted + " units";
+      }
+
+      function calculateGassssssssssss() {
+          var quantity = document.getElementById('quantitysssssssssss').value;
+          // Add your extraction calculation logic here
+          // For example:
+          var gasExtracted = quantity * 125; // Assuming 80% extraction efficiency
+          document.getElementById('gasAmount11').innerText = "Gas Extracted: " + gasExtracted + " units";
+      }
+      function calculateGasssssssssssss() {
+          var quantity = document.getElementById('quantitysssssssssss').value;
+          // Add your extraction calculation logic here
+          // For example:
+          var gasExtracted = quantity * 223; // Assuming 80% extraction efficiency
+          document.getElementById('gasAmount12').innerText = "Gas Extracted: " + gasExtracted + " units";
+      }
+      function calculateGassssssssssssss() {
+          var quantity = document.getElementById('quantityssssssssssss').value;
+          // Add your extraction calculation logic here
+          // For example:
+          var gasExtracted = quantity * 93; // Assuming 80% extraction efficiency
+          document.getElementById('gasAmount13').innerText = "Gas Extracted: " + gasExtracted + " units";
+      }
+
+
+
+      
+  </script>
+  
+  
+
+    
+</body>
+</html>
